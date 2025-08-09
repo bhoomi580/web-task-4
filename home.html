@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hero Section</title>
+  <title>To-Do List</title>
+
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+  <link rel="stylesheet" href="style.css" />
+  <!-- Latest Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <script defer src="script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+
+  
+
+  <!-- Header Section -->
+  <header class="main-header">
+    <div class="container">
+      <div class="logo">MyLogo</div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Our Website</h1>
+      <p>Your one-stop solution for all your digital needs.</p>
+      <a href="#services" class="btn">Get Started</a>
+    </div>
+  </section>
+  <section class="todo-section" >
+<h1>My To-Do List</h1>
+<div class="todo-input-container"></div>
+  <!-- Input section -->
+  <div>
+    <input type="text" id="task-input" placeholder="Enter a task..." />
+    <button id="add-task-btn">Add</button>
+  </div>
+
+  <!-- Task list container -->
+  <ul id="task-list">
+    <!-- Tasks will be added here -->
+    
+  </ul>
+  <script src="script.js"></script>
+  </section>
+
+
+  <footer style="background-color: #151617; color: #fff; text-align: center; padding: 20px;">
+  <p>© 2025 MyWebsite. All rights reserved.</p>
+  <div>
+    <a href="#" style="color: rgb(255, 255, 255); margin: 10px;"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" style="color: white; margin: 10px;"><i class="fab fa-twitter"></i></a>
+    <a href="#" style="color: white; margin: 10px;"><i class="fab fa-instagram"></i></a>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
